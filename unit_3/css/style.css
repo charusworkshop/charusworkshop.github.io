@@ -5,8 +5,9 @@ body {
 }
 
 h1 {
-	background: A70FFF;
-	font-size: 16px;
+	font-color: A70FFF;
+	font-size: 24px;
+	font-style: bold;
 }
 
 #slogan {
