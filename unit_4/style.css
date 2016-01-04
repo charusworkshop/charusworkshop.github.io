@@ -6,6 +6,7 @@ body {
 	background: #FFCE5E;
 	font-size: 12px;
 	font-family: Arial;
+	width: 100%;
 }
 
 h1 {
@@ -28,4 +29,9 @@ h1 {
 #numbers-sidebar {
 	font-family: 'Lobster', cursive;
 
+}
+
+#photo {
+	width: 25%; 
+	height: auto;
 }
