@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500italic);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:400,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+	background: #FFCE5E;
+	font-size: 12px;
+	font-family: Arial;
+	width: 100%;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+}
+
+section {
+	background-color: #FFE2B8;
+}
+h1 {
+	color: rgb(167,15,255);
+	font-size: 24px;
+	font-style: bold;
+}
+
+#slogan {
+	font-style: italic;
+	color: rgb(167,15,255);
+	font-weight: bold;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.features {
+	font-family: 'Volkhov', serif;
+}
+
+#numbers-sidebar {
+	font-family: 'Lobster', cursive;
+
+}
+
+#photo {
+	width: 25%; 
+	height: auto;
+}
