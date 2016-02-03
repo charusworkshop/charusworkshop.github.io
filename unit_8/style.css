@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500italic);
+@import url(https://fonts.googleapis.com/css?family=Volkhov:400,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+
+body {
+	background: #FFCE5E;
+	font-size: 12px;
+	font-family: Arial;
+}
+
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+	width: 100%;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20%;
+	width: 80%;
+}
+
+aside {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+div {
+	background-color: #FFE2B8;
+}
+
+section {
+	background-color: #FFE2B8;
+	width: 100%;
+}
+
+h1 {
+	color: rgb(167,15,255);
+	font-size: 1.5em;
+	font-style: bold;
+}
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20%;
+	width: 80%;
+}
+
+#left {
+	background-color: #E582A2;
+	border: 1px black solid;
+	margin: 10px;
+	padding: 20px;
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+#right {
+	background-color: #E55B88;
+	border: 1px black solid;
+	margin: 10px;
+	padding: 20px;
+	float: left;
+	width: 30%;
+	height: 100%;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+#slogan {
+	font-style: italic;
+	color: rgb(167,15,255);
+	font-weight: bold;
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.features {
+	font-family: 'Volkhov', serif;
+}
+
+#numbers-sidebar {
+	font-family: 'Lobster', cursive;
+
+}
+
+#photo {
+	width: 25%; 
+	height: auto;
+}
+
+@media only screen and (max-width: 200px) {
+	.aside {
+		float: none;
+		width: auto;
+	}
+}
+@media only screen and (max-width: 200px) {
+
+	.article {
+		float: none;
+		width: auto;
+	}
+}
